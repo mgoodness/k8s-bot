@@ -1,0 +1,9 @@
+package: github.com/mgoodness/k8s-bot
+import:
+- package: github.com/go-chat-bot/bot
+  subpackages:
+  - slack
+- package: github.com/namsral/flag
+- package: k8s.io/client-go
+  subpackages:
+  - "1.4"
